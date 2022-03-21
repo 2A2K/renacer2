@@ -1,0 +1,31 @@
+@media screen and (max-width: 575px) {
+    .titulo__animado--h1 {
+        font-size:5em;
+        font:bold 7.9vw/1.5 'Signika', sans-serif;
+        user-select:none;
+    }
+    .titulo__animado--h2 {
+        font-size:5em;
+        font:bold 8vw/1.5 'Signika', sans-serif;
+        user-select:none;
+    }
+
+    .iframe__mod iframe{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .titulo__animado--h2 {
+        font-size:5em;
+        font:bold 6vw/1.5 'Signika', sans-serif;
+        user-select:none;
+    }
+
+    .iframe__mod iframe{
+        max-width: 100%;
+        height: auto;
+    }
+
+}

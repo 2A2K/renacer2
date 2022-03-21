@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+@import "variable";
+@import "animacion";
+@import "footer";
+@import "header";
+@import "media";
+
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: $bg-body;
+}
+

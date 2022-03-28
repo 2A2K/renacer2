@@ -1,0 +1,22 @@
+/* Extend */
+
+.titulo {
+    font-size: 5em;
+    user-select: none;
+}
+
+
+/* Mixin */
+
+@mixin font($vw) {
+    font: bold $vw/1.5 'Signika', sans-serif;
+}
+
+
+/* Maps */
+
+$headerlogo: (
+    nombre: logo,
+    duracion: 4s,
+    repeticiones: 1,
+)

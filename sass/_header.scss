@@ -11,9 +11,9 @@
 }
 
 .header__logo {
-    animation-name: logo;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
+    animation-name: map-get($headerlogo, nombre);
+    animation-duration: map-get($headerlogo, duracion);
+    animation-iteration-count: map-get($headerlogo, repeticiones);
 }
 
 @keyframes logo {

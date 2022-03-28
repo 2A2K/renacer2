@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass sass/style.scss css/style.css -w --no-source-map -s compressed"
+    "sass": "sass sass/style.scss css/style.css -w"
   },
   "repository": {
     "type": "git",

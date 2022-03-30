@@ -8,7 +8,9 @@
     @include font(3vw);
 }
 
-.titulo__animado span { display:inline-block; animation:float .2s ease-in-out infinite; }
+.titulo__animado { 
+    span { display:inline-block; animation:float .2s ease-in-out infinite; }
+}
  @keyframes float {
   0%,100%{ transform:none; }
   33%{ transform:translateY(-1px) rotate(-2deg); }

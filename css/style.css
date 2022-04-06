@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 /* Extend */
 .titulo, .titulo__animado--h2, .titulo__animado--h1 {
@@ -176,7 +176,7 @@ span:nth-child(4n-3) {
 }
 
 .footer__modificado {
-  background-color: #FFCC80;
+  background-color: #66FF66;
 }
 
 .footer__modificado a {
@@ -222,7 +222,15 @@ span:nth-child(4n-3) {
 }
 
 .bg__submenu {
-  background-color: #FFCC80;
+  background-color: #66FF66;
+}
+
+.navbar--menu__textcolor {
+  color: #FF9900 !important;
+}
+
+.navbar--submenu__textcolor {
+  color: #FF6633 !important;
 }
 
 @media screen and (max-width: 575px) {
@@ -257,7 +265,7 @@ span:nth-child(4n-3) {
 }
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(to bottom, #fdfc47, #24fe41);
+  background: linear-gradient(to bottom, #a8ff78, #78ffd6);
 }
 
 /*# sourceMappingURL=style.css.map */

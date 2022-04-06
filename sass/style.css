@@ -176,7 +176,7 @@ span:nth-child(4n-3) {
 }
 
 .footer__modificado {
-  background-color: #FFF1E1;
+  background-color: #66FF66;
 }
 
 .footer__modificado a {
@@ -222,7 +222,7 @@ span:nth-child(4n-3) {
 }
 
 .bg__submenu {
-  background-color: #FFF1E1;
+  background-color: #66FF66;
 }
 
 .navbar--menu__textcolor {
@@ -265,7 +265,7 @@ span:nth-child(4n-3) {
 }
 body {
   font-family: "Quicksand", sans-serif;
-  background: linear-gradient(50deg, #FFD190 0%, #FFD190 25%, #F2D5F3 100%);
+  background: linear-gradient(to bottom, #a8ff78, #78ffd6);
 }
 
 /*# sourceMappingURL=style.css.map */
